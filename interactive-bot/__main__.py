@@ -180,7 +180,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
     else:
         await update.message.reply_html(
-            f"{mention_html(user.id, user.full_name)} 同学：\n\n{welcome_message}"
+            f"{mention_html(user.id, user.full_name)} 老板：\n\n{welcome_message}"
         )
 
 
